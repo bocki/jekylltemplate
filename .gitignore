@@ -1,0 +1,8 @@
+/.bundle/
+/vendor/bundle
+
+node_modules
+
+jekyll/_site/
+jekyll/.sass-cache/
+jekyll/.jekyll-metadata
