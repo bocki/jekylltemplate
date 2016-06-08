@@ -47,8 +47,8 @@ gulp.task('watch', function () {
     jekyllDir+'_sass/*.scss'
     ], ['sass']);
   gulp.watch([
-    jekyllDir+'*.html', 
-    jekyllDir+'_layouts/*.html', 
+    jekyllDir+'*.html',
+    jekyllDir+'_layouts/*.html',
     jekyllDir+'_posts/*'
     ], ['jekyll-rebuild']);
 });
